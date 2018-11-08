@@ -1,0 +1,26 @@
+html{
+    background: #621;
+}
+
+body{
+    background: #e52;
+    color: black;
+    width: 80%;
+    min-height: 50px;
+    margin: 20px auto;
+}
+
+.btn {
+    width: 75px;
+    height: 30px;
+    background: rgb(112, 47, 21);
+    color: white;
+    margin: 10px;
+    border: 1pc solid black;
+    user-select: none;
+}
+
+.btn:hover {
+    background: #639;
+    color: yellow;
+}
