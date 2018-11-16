@@ -69,12 +69,15 @@ function checkSelected(id){
     if(document.getElementById(id).innerHTML !== correct_answer){
         console.log("incorrect");
         cooky = document.cookie;
+        var arr = cooky.split("=");
+        highScore = parseInt(arr[1]);
+        console.log("cooky=" + cooky);
 
-        if(cooky !== null && cooky !==""){
-            document.cookie = "highScore=35; expires=Fri, 9 Nov 2018 12:00:00 UTC";
-        } else{
-            document.cookie = "highScore=35; expires=Fri, 9 Nov 2018 12:00:00 UTC";
+        if(highScore < streak || cooky ===null || cooky===""){
+            document.cookie = "highScore="+streak;
+            console.log("cooky2='" + cooky + "'");
         }
+        streak = 0;
 
     } else{
         console.log("correct");
