@@ -1,0 +1,22 @@
+Ifromation to fill in the pages, such as descriptions and paragraphs::
+
+Burgers::
+    bbq ->
+    avocado -> 
+    quarter pounder ->
+    tripple bacon -> 
+    vaggie Burgers
+
+Drinks::
+    coke/diet ->
+    tea -> 
+    lemonade -> 
+    sprite -> 
+    root beer -> 
+
+Deserts::
+    cookie(sugar/chocolate chip/rasin) -> 
+    cinnamon roll -> 
+    parfait(strawberry/cherry/blueberry) -> 
+    pie(apple/chocolate/pecan/pumpkin/cherry/walnut) ->
+    shake(s/m/l -- strawberry/vanilla/chocolate) -> 
